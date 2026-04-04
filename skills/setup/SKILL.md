@@ -1,7 +1,7 @@
 ---
 name: setup
 description: Use when the user says "set up keepgoing", "configure keepgoing", "keepgoing setup", "install keepgoing rules", or wants to verify/repair their KeepGoing configuration after installing the plugin.
-allowed-tools: ["mcp__plugin_keepgoing_keepgoing__setup_project"]
+allowed-tools: ["mcp__plugin_keepgoing_session__setup_project"]
 ---
 
 The user wants to complete their KeepGoing setup after installing the plugin.
@@ -11,7 +11,7 @@ The plugin already handles hooks automatically - do NOT write hooks again. This 
 1. **Rules file**: Creates `.claude/rules/keepgoing.md` so Claude knows to call `save_checkpoint` after completing work.
 2. **Statusline**: Adds the `[KG]` statusline command to `settings.json` so current session state shows in the Claude Code status bar.
 
-Call `mcp__plugin_keepgoing_keepgoing__setup_project` with:
+Call `mcp__plugin_keepgoing_session__setup_project` with:
 - `sessionHooks`: false (hooks are already provided by the plugin - skip to avoid duplicates)
 - `claudeMd`: true (write the rules file)
 - `scope`: "user" for global setup across all projects, or "project" for this project only. Default to "user" unless the user specifies otherwise.

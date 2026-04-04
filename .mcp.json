@@ -1,5 +1,5 @@
 {
-  "keepgoing": {
+  "session": {
     "type": "stdio",
     "command": "npx",
     "args": ["-y", "@keepgoingdev/mcp-server"]

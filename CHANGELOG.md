@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3
+
+- Rename MCP server key from `keepgoing` to `session` to avoid naming conflicts
+- Update all skill tool references to match new MCP server key
+- Add concise checkpoint text guidance in checkpoint skill
+
 ## 0.1.2
 
 - Add `marketplace.json` for plugin discovery
