@@ -13,8 +13,8 @@ Once installed, KeepGoing runs automatically in the background:
 ## Installation
 
 ```
-/plugin add keepgoing-dev/claude-plugin
-/plugin install keepgoing
+/plugin marketplace add keepgoing-dev/claude-plugin
+/plugin install keepgoing@keepgoing-dev
 ```
 
 After installing, run `/keepgoing:setup` once to complete configuration (writes the rules file and statusline).

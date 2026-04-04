@@ -1,0 +1,14 @@
+{
+  "name": "keepgoing-dev",
+  "owner": {
+    "name": "KeepGoing Dev"
+  },
+  "plugins": [
+    {
+      "name": "keepgoing",
+      "source": "./",
+      "description": "Session memory for Claude Code. Auto-saves checkpoints, shows momentum on session start, and tracks what you were working on across sessions.",
+      "version": "0.1.1"
+    }
+  ]
+}
