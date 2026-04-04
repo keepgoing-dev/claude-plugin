@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Add `marketplace.json` for plugin discovery
+- Update install commands to use `/plugin marketplace add` and `/plugin install keepgoing@keepgoing-dev`
+
 ## 0.1.1
 
 - Switch plugin repository from `keepgoing-dev/community` to `keepgoing-dev/claude-plugin`
