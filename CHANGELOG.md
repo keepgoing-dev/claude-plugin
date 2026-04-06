@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Update to match MCP server 0.10.0 with structural decision detection
+
 ## 0.1.3
 
 - Rename MCP server key from `keepgoing` to `session` to avoid naming conflicts
