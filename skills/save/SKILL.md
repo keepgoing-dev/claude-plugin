@@ -1,5 +1,5 @@
 ---
-name: checkpoint
+name: save
 description: Use when the user says "save a checkpoint", "checkpoint", "save progress", "mark this milestone", or wants to explicitly capture current state with a custom message.
 argument-hint: [optional message describing what was accomplished]
 allowed-tools: ["mcp__plugin_keepgoing_session__save_checkpoint"]

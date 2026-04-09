@@ -4,7 +4,7 @@ description: Use when the user wants a comprehensive context reconstruction befo
 allowed-tools: ["mcp__plugin_keepgoing_session__get_reentry_briefing", "mcp__plugin_keepgoing_session__get_decisions", "mcp__plugin_keepgoing_session__get_session_history", "mcp__plugin_keepgoing_session__get_momentum"]
 ---
 
-The user wants a comprehensive context briefing - more thorough than `/keepgoing:resume`.
+The user wants a comprehensive context briefing - more thorough than `/keepgoing:reentry`.
 
 1. Call `mcp__plugin_keepgoing_session__get_reentry_briefing` to get the structured briefing.
 2. Call `mcp__plugin_keepgoing_session__get_decisions` to surface key architectural and design decisions.

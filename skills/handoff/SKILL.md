@@ -1,5 +1,5 @@
 ---
-name: continue
+name: handoff
 description: Use when the user wants to switch to another AI tool (ChatGPT, Gemini, Copilot, etc.) and carry context with them - "continue on ChatGPT", "export context for Gemini", "take this to Copilot", "export my context".
 argument-hint: "[chatgpt | gemini | copilot | claude | general]"
 allowed-tools: ["mcp__plugin_keepgoing_session__continue_on"]

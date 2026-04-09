@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0
+
+- Rename skills to avoid collisions with native Claude Code commands:
+  - `resume` - `reentry` (native `/resume` switches sessions)
+  - `continue` - `handoff` (native `/continue` is an alias for `/resume`)
+  - `checkpoint` - `save` (native `/checkpoint` is an alias for `/rewind`)
+
 ## 0.2.0
 
 - Update to match MCP server 0.10.0 with structural decision detection
@@ -25,5 +32,5 @@ Initial release of the KeepGoing Claude Code plugin.
 
 - Auto-configures session hooks (SessionStart, Stop, SessionEnd, PostToolUse) on install
 - Registers `@keepgoingdev/mcp-server` as an MCP server so all 12 KeepGoing tools are available mid-session
-- Adds 7 slash commands under the `/keepgoing:` namespace: `resume`, `briefing`, `checkpoint`, `progress`, `hot`, `continue`, `setup`
+- Adds 7 slash commands under the `/keepgoing:` namespace: `reentry`, `briefing`, `save`, `progress`, `hot`, `handoff`, `setup`
 - Available via `/plugin marketplace add keepgoing-dev/claude-plugin` then `/plugin install keepgoing@keepgoing-dev`
