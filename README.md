@@ -25,12 +25,12 @@ Full install guide: https://keepgoing.dev/setup/claude-plugin
 
 | Command | What it does |
 |---------|-------------|
-| `/keepgoing:resume` | Quick "where did I leave off?" briefing |
+| `/keepgoing:reentry` | Quick "where did I leave off?" briefing |
 | `/keepgoing:briefing` | Full context reconstruction for a big session |
-| `/keepgoing:checkpoint [message]` | Save a checkpoint manually with a custom message |
+| `/keepgoing:save [message]` | Save a checkpoint manually with a custom message |
 | `/keepgoing:progress` | Standup-ready progress summary across sessions |
 | `/keepgoing:hot` | See what's actively in-progress |
-| `/keepgoing:continue [target]` | Export context to another AI tool (chatgpt, gemini, copilot, claude, general) |
+| `/keepgoing:handoff [target]` | Export context to another AI tool (chatgpt, gemini, copilot, claude, general) |
 | `/keepgoing:setup` | Complete setup (rules file, statusline) |
 
 ## Upgrading from manual setup
@@ -51,10 +51,10 @@ With the plugin installed, Claude has direct access to all KeepGoing tools durin
 - `get_session_history` - Full session history
 - `get_decisions` - Key architectural decisions (Pro)
 - `get_whats_hot` - Recently active files and branches (Pro)
-- `continue_on` - Export context for other AI tools (the underlying tool called by `/keepgoing:continue`)
+- `continue_on` - Export context for other AI tools (the underlying tool called by `/keepgoing:handoff`)
 - `setup_project` - Configure KeepGoing
 
-> **Note:** The `/keepgoing:continue [target]` slash command calls the `continue_on` MCP tool under the hood.
+> **Note:** The `/keepgoing:handoff [target]` slash command calls the `continue_on` MCP tool under the hood.
 
 ## Pro
 
