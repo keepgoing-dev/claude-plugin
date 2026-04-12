@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+- Update to match MCP server 0.11.0 with staleness detection and framework message filtering
+
 ## 0.3.0
 
 - Rename skills to avoid collisions with native Claude Code commands:
