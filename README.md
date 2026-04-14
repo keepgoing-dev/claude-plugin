@@ -17,8 +17,6 @@ Once installed, KeepGoing runs automatically in the background:
 /plugin install keepgoing@keepgoing-dev
 ```
 
-After installing, run `/keepgoing:setup` once to complete configuration (writes the rules file and statusline).
-
 Full install guide: https://keepgoing.dev/setup/claude-plugin
 
 ## Slash commands
@@ -31,13 +29,12 @@ Full install guide: https://keepgoing.dev/setup/claude-plugin
 | `/keepgoing:progress` | Standup-ready progress summary across sessions |
 | `/keepgoing:hot` | See what's actively in-progress |
 | `/keepgoing:handoff [target]` | Export context to another AI tool (chatgpt, gemini, copilot, claude, general) |
-| `/keepgoing:setup` | Complete setup (rules file, statusline) |
 
 ## Upgrading from manual setup
 
 If you previously configured KeepGoing via `keepgoing init` or `setup_project`, your `settings.json` already has KeepGoing hooks. The plugin provides those hooks too, so you'll have duplicates.
 
-To clean up: remove the KeepGoing hook entries from your `.claude/settings.json` or `~/.claude/settings.json`, then run `/keepgoing:setup` to restore the rules file and statusline.
+To clean up: remove the KeepGoing hook entries from your `.claude/settings.json` or `~/.claude/settings.json`, then run `keepgoing setup claude` from your terminal to restore the rules file and statusline.
 
 As of v0.1.3, the MCP server key was renamed from `keepgoing` to `session` to avoid naming conflicts. If your config references the old key name, update it to `session`.
 
@@ -52,7 +49,6 @@ With the plugin installed, Claude has direct access to all KeepGoing tools durin
 - `get_decisions` - Key architectural decisions (Pro)
 - `get_whats_hot` - Recently active files and branches (Pro)
 - `continue_on` - Export context for other AI tools (the underlying tool called by `/keepgoing:handoff`)
-- `setup_project` - Configure KeepGoing
 
 > **Note:** The `/keepgoing:handoff [target]` slash command calls the `continue_on` MCP tool under the hood.
 
