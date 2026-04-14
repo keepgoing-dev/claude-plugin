@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.2
+
+- Remove deprecated setup skill reference
+- Clean up README documentation
+
 ## 0.3.1
 
 - Update to match MCP server 0.11.0 with staleness detection and framework message filtering
