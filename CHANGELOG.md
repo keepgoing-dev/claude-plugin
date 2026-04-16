@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0
+
+- Update to match MCP server 0.12.0 with GlobalDatabase, BYO API key, and improved decision detection
+- Auto-trigger background refinement after decision detection when an API key is configured
+- Show decision count teaser for free users
+
 ## 0.3.2
 
 - Remove deprecated setup skill reference
