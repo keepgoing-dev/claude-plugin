@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.1
+
+- Update hook commands from `npx -y @keepgoingdev/mcp-server` to `keepgoing` CLI for faster startup
+
 ## 0.4.0
 
 - Update to match MCP server 0.12.0 with GlobalDatabase, BYO API key, and improved decision detection

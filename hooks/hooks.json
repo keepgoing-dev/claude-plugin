@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx -y @keepgoingdev/mcp-server --print-momentum"
+            "command": "keepgoing momentum --hook"
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx -y @keepgoingdev/mcp-server --update-task-from-hook"
+            "command": "keepgoing task-update --hook"
           }
         ]
       },
@@ -26,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx -y @keepgoingdev/mcp-server --heartbeat"
+            "command": "keepgoing heartbeat --hook"
           }
         ]
       }
@@ -36,7 +36,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx -y @keepgoingdev/mcp-server --save-checkpoint"
+            "command": "keepgoing save --hook"
           }
         ]
       }
@@ -46,7 +46,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx -y @keepgoingdev/mcp-server --save-checkpoint"
+            "command": "keepgoing save --hook"
           }
         ]
       }
