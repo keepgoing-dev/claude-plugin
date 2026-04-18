@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.2
+
+- Refresh documentation and README
+
 ## 0.4.1
 
 - Update hook commands from `npx -y @keepgoingdev/mcp-server` to `keepgoing` CLI for faster startup

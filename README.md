@@ -55,3 +55,14 @@ With the plugin installed, Claude has direct access to all KeepGoing tools durin
 ## Pro
 
 `get_decisions` and `get_whats_hot` (and detailed decision tracking) require a KeepGoing Pro license. Basic session recall, briefings, and checkpoints are free. Visit [keepgoing.dev](https://keepgoing.dev) to learn more.
+
+## Development
+
+This package has no build step. It is a static bundle of JSON config files and Markdown skill definitions.
+
+- To add or modify a skill, edit (or create) `skills/<name>/SKILL.md`.
+- To change hook behavior, edit `hooks/hooks.json`.
+- To update plugin metadata, edit `.claude-plugin/plugin.json` and keep the version in `.claude-plugin/marketplace.json` in sync.
+- MCP tool references in skill `allowed-tools` must use the `mcp__plugin_keepgoing_session__` prefix (the MCP server key is `session`).
+
+If you rename or add MCP tools in `apps/mcp-server`, update the skill `allowed-tools` lists here to match.
