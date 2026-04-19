@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.4
+
+- Update to match MCP server 0.14.1: project registry now filters out temp dirs and common home subdirectories
+
 ## 0.4.3
 
 - Update to match MCP server 0.13.0: `save_checkpoint` now records checkpoint time for statusline display
