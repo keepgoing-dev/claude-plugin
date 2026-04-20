@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0
+
+- Update to match MCP server 0.14.2 and CLI 2.5.0 with decisions surfaced at session start
+- Briefing skill now frames decisions as session constraints so the AI treats them as guardrails, not just history
+- Reentry skill now surfaces active decisions during re-entry so past choices are immediately visible
+
 ## 0.4.4
 
 - Update to match MCP server 0.14.1: project registry now filters out temp dirs and common home subdirectories

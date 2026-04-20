@@ -13,8 +13,10 @@ The user wants a comprehensive context briefing - more thorough than `/keepgoing
 
 Synthesize all results into a complete briefing covering:
 - Current state and what was last worked on
-- Key decisions that shaped the current direction
+- Key decisions that shaped the current direction - present these as **constraints to respect during this session**, not just information. Any decision in category `auth`, `architecture`, `migration`, or `infra` should be explicitly called out as a hard constraint requiring user approval to override.
 - Recent session history across branches
 - Suggested next step with context for why
+
+If the user stated a specific task when invoking this skill, cross-reference decisions against that task and call out any that constrain it before diving into implementation. If no task was stated, present all decisions with confidence >= 0.7 as standing constraints for the session.
 
 This is the "full reconstruction" mode - the user is about to start a substantial work block and needs complete context. Be thorough.
