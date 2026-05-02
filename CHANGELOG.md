@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.0
+
+- Update to match MCP server 0.14.2 and CLI 2.8.0 with OpenCode setup support
+- Add OpenCode plugin hooks so Claude Code installs the new plugin flow alongside MCP configuration
+
 ## 0.5.0
 
 - Update to match MCP server 0.14.2 and CLI 2.5.0 with decisions surfaced at session start
