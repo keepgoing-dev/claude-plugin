@@ -1,6 +1,6 @@
 {
   "name": "keepgoing",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Session memory for Claude Code. Auto-saves checkpoints, shows momentum on session start, and tracks what you were working on across sessions.",
   "author": {
     "name": "KeepGoing.dev",

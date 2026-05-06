@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.1
+
+- Update to match MCP server 0.14.3 and CLI 2.8.3 with session deactivation support
+
 ## 0.6.0
 
 - Update to match MCP server 0.14.2 and CLI 2.8.0 with OpenCode setup support
