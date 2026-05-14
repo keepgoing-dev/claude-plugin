@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.0
+
+- Update to match MCP server 0.15.0: license activation tools removed, all capabilities are now public
+- Decision Detection and Session Awareness are available to all users without a license
+
 ## 0.6.1
 
 - Update to match MCP server 0.14.3 and CLI 2.8.3 with session deactivation support
